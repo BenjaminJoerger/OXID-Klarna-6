@@ -258,8 +258,5 @@ $aModule = array(
     'settings'    => array(),
     'events'      => array(
         'onActivate'   => '\TopConcepts\Klarna\Core\KlarnaInstaller::onActivate',
-    ),
-    'files' => array(
-        'KlarnaPaymentHelper' => KlarnaPaymentHelper::class,
     )
 );
